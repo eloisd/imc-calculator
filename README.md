@@ -13,7 +13,7 @@ Une application web complète pour calculer et suivre son Indice de Masse Corpor
 
 1. Cloner le repository :
 ```bash
-git clone https://github.com/votre-username/imc-calculator
+git clone https://github.com/eloisd/imc-calculator
 cd imc-calculator
 ```
 
