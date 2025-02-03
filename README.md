@@ -35,6 +35,7 @@
     7. pm2 startup
     8. sudo nano /etc/nginx/sites-available/nextjs
 10. copy end past:
+    ```bash
     server {
         listen 80;
         server_name your-domain.com;
@@ -48,6 +49,7 @@
             proxy_cache_bypass $http_upgrade;
         }
     }
+    ```
 11. sudo ln -s /etc/nginx/sites-available/nextjs /etc/nginx/sites-enabled/
 12. sudo rm /etc/nginx/sites-enabled/default
 13. sudo nginx -t
