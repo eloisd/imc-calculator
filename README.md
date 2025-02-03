@@ -35,6 +35,7 @@
     7. pm2 startup
     8. sudo nano /etc/nginx/sites-available/nextjs
 10. copy end past:
+
     ```bash
     server {
         listen 80;
